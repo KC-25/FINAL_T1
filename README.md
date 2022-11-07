@@ -8,7 +8,6 @@
 ***Team Agreement***
 a. Name of Group Members.
      Kierra Connell   
-     Haley Ptomey
      Matthew Montoya
 
 b. When will you work on the Project?
