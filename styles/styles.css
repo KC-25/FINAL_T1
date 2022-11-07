@@ -1,3 +1,20 @@
- body {
-    background-color: purple;
- }
+h1 {
+    font-weight: bold;
+}
+
+#into {
+    font-size: x-large;
+    font-style: italic;
+}
+
+
+
+ p {
+    font-family: 'Erica One', cursive;
+font-family: 'Shadows Into Light', cursive;
+}
+
+body {
+    background-color: midnightblue;
+}
+
