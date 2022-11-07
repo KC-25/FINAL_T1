@@ -30,4 +30,4 @@ f. What are the tasks that you will complete or be in charge of?
 
 
 g. How will you complete the tasks listed above. 
-
+Complete CSS and html first to begin working on java script to be able to work faster and double check work. 
