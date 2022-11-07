@@ -14,10 +14,10 @@ b. When will you work on the Project?
      We will work on the project in class, but if needed we will work on it outside of class.
 
 c. What is the project?
-
+Pick and chose game. 
 
 d. How will it function? 
-
+You pick an option and depending on what you put. The story will change. 
 
 e. What Code will be used?
      HTML
@@ -27,6 +27,9 @@ e. What Code will be used?
 
 
 f. What are the tasks that you will complete or be in charge of?
+Kierra- CSS
+Matthew-HTML
+Both-JS
 
 
 g. How will you complete the tasks listed above. 
