@@ -1,17 +1,14 @@
+
 h1 {
     font-weight: bold;
     color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    font-size: xxx-large;
 }
 
-#into {
-    font-size: x-large;
-    font-style: italic;
-    color: white;
-}
-
-
-
- p {
+ #intro {
     color: white;
     font-family: 'Erica One', cursive;
     font-family: 'Shadows Into Light', cursive;
@@ -26,3 +23,28 @@ body {
     background-color: rgb(45, 0, 85);
 }
 
+#voicemail {
+    color: white;
+    font-family: 'Erica One', cursive;
+    font-family: 'Shadows Into Light', cursive;
+    background-color: rgb(0, 0, 55);
+    border-radius: solid 4px cyan;
+    padding: 10px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+#voice {
+    color: white;
+    font-family: 'Erica One', cursive;
+    font-family: 'Shadows Into Light', cursive;
+    background-color: black;
+    border-radius: solid 4px white;
+    padding: 10px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 8%;
+    margin-right: 8%;
+}
