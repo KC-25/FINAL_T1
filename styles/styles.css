@@ -14,12 +14,17 @@ h1 {
     color: white;
     font-family: 'Erica One', cursive;
     font-family: 'Shadows Into Light', cursive;
-    background-color: darkorange;
-    border-radius: 25px;
-    border: solid 4px orange;
+    background-color: rgb(57, 32, 0);
+    border-radius: 15px;
+    border: solid 4px darkorange;
+    padding: 10px;
+    margin: 5%;
 }
 
 body {
     background-color: midnightblue;
 }
 
+h2 {
+    color: white;
+}
