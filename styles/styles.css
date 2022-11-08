@@ -5,13 +5,18 @@ h1 {
 #into {
     font-size: x-large;
     font-style: italic;
+    color: white;
 }
 
 
 
  p {
+    color: white;
     font-family: 'Erica One', cursive;
-font-family: 'Shadows Into Light', cursive;
+    font-family: 'Shadows Into Light', cursive;
+    background-color: darkorange;
+    border-radius: 25px;
+    border: solid 4px orange;
 }
 
 body {
