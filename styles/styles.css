@@ -30,6 +30,7 @@ body {
     font-family: 'Shadows Into Light', cursive;
     background-color: rgb(0, 0, 55);
     border: solid 3px cyan;
+    border: solid 4px cyan;
     padding: 10px;
     margin-top: 5%;
     margin-bottom: 5%;
@@ -45,6 +46,7 @@ body {
     font-family: 'Shadows Into Light', cursive;
     background-color: black;
     border: solid 3px white;
+    border-radius: solid 4px white;
     padding: 10px;
     margin-top: 5%;
     margin-bottom: 5%;
