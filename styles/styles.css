@@ -1,56 +1,52 @@
 
 h1 {
-    font-weight: bold;
+    font-family: 'Press Start 2P', cursive;
     color: white;
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 5%;
     font-size: xxx-large;
+    text-align: center;
 }
 
  #intro {
     color: white;
-    font-family: 'Erica One', cursive;
-    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Crimson Text', serif;
     background-color: rgb(57, 32, 0);
     border-radius: 15px;
     border: solid 3px darkorange;
     padding: 10px;
     margin: 5%;
-    font-size: large;
+    font-size: x-large;
 }
 
 body {
     background-color: rgb(45, 0, 85);
 }
 
+#voice {
+    color: white;
+    font-family: 'Crimson Text', serif;
+    background-color: black;
+    border: solid 3px white;
+    padding: 10px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 8%;
+    margin-right: 8%;
+    font-size: x-large;
+}
+
 #voicemail {
     color: white;
-    font-family: 'Erica One', cursive;
-    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Island Moments', cursive;
     background-color: rgb(0, 0, 55);
     border: solid 3px cyan;
-    border: solid 4px cyan;
     padding: 10px;
     margin-top: 5%;
     margin-bottom: 5%;
     margin-left: 8%;
     margin-right: 8%;
     border-radius: 15px;
-    font-size: large;
-}
-
-#voice {
-    color: white;
-    font-family: 'Erica One', cursive;
-    font-family: 'Shadows Into Light', cursive;
-    background-color: black;
-    border: solid 3px white;
-    border-radius: solid 4px white;
-    padding: 10px;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    margin-left: 8%;
-    margin-right: 8%;
-    font-size: large;
+    font-size: xxx-large;
 }
