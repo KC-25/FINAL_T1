@@ -1,9 +1,13 @@
 # FINAL_T1
 
+***Reset***
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
+
+***Button***
+https://sebhastian.com/javascript-create-button/
 
 ***Team Agreement***
 a. Name of Group Members.
