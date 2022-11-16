@@ -61,7 +61,7 @@ btn.onclick = function () {
        
             // ****************************** CHOICE SET 3 (Detective) ******************************
 
-        let CS3D = prompt("YOu look at the glowing substance in the bottle. There is only one place where something like this could have came from. Professor Mumm's office. Should you... (a) Go to Professor Mumm's office. (b) Continue looking in the kitchin.")
+        let CS3D = prompt("You look at the glowing substance in the bottle. There is only one place where something like this could have came from. Professor Mumm's office. Should you... (a) Go to Professor Mumm's office. (b) Continue looking in the kitchin.")
 
         if (CS3D === "a") {
             alert("You run to Professor Mumm's office. Once you get in there you see shelves filled with all sorts of things. You see glowing things, moving things, chunky things, all sorts of odds and whatnots.")
@@ -77,11 +77,20 @@ btn.onclick = function () {
 
             let CS5D = prompt("That means that the trap was set up about an hour before Professor Mumm's arival to the party. You try to think of who would know exactly when the Professor would come to the party. You can only think of two people who would have known. Who should you ask? (a)Cheese it Murchant. (b)Jr. ")
             if(CS5D === "a"){
-            // ******************************  ENDING 4 (Detective) ******************************
+            // ******************************  ENDING 5 (Detective) ******************************
                 alert("You start looking for the Cheese it Murchant and find him at the crime sean. Before you're able to talk to him he starts walking away. You fallow him and he arrives at the library. He looks around as if he's hiding something. He pulls a book and a secret door opens. He goes into it and it closes behind him.")
                 alert("You start grabbing books trying to find the one that opened the secret entrance and eventually you do. The passage opens and you go through. You walk down the staries and you arive in a room full to the ceilling with Cheese it's. The Cheese it Murchant is standing in the middle of the room.")
-                alert("You start walking towards him. ''")
-                alert("Food Poisoning.                                                                         Ending 4 out of 20. It's rude to eat Cheese it's that aren't yours. But I guess you died happy.")
+                alert("You start walking towards him. ''Wait stop!'' He yells. But it's to late. You fall into a huge batch of melted cheese and drown. ")
+                alert("CHEEZED Ending.                                                                         Ending 5 out of 20. I wonder if he made you into Cheese it's? Hopfully your flavor sells good.")
+            }
+            else if(CS5D === "b"){
+                alert("You walk bak into the main lobby to find Jr.")
+                alert("You eventully find him and walk up to him and ask, ''What were you doing about an hour before the party?")
+                alert("''I was with the Cheese It Merchant discussing what Cheese it's we should have for the party.'' Says Jr. You think. That covers both Jr and the Cheese it Merchaint. Who else could have known when Professor Mumm was coming to the party.")
+            
+                // ****************************** CHOICE SET 6 (Detective) ******************************
+
+                prompt("You decide to go back to Professor Mumm's office to look for more clues. (a) ")
             }
         }
         else if(CS4D === "b"){
@@ -124,9 +133,6 @@ btn.onclick = function () {
         else if(CS2D === "d"){
 
         }
-        else{
-            alert("You didn't put the correct variable.");
-        }
     }
     else if(CS1D === "d"){
 
@@ -136,10 +142,6 @@ btn.onclick = function () {
      
     if(CS === ""){
 
-    }
-
-    else{
-        alert("You didn't put the correct variable.");
     }
 
     }
