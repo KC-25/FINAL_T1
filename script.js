@@ -1,149 +1,131 @@
-console.log("Hello World.");
 
 let btn = document.createElement("button");
 btn.innerHTML = " Start Game ";
-btn.onclick = function () {
+btn.onclick = function (){
 
-    // ****************************** NAME and/or SWITCH STORIES ******************************
+    // ******************************************** NAME ********************************************
 
-    const SecretWord = prompt("Please enter secret word to switch stories. If you do not know. Put anything in.");
+const UserNameDetective = prompt("Please enter the name of your detective.")
+alert("Hello detective " +UserNameDetective+ "!");
+alert("Your objective is to catch the murder and find the eco chip.");
+alert("Starting story...");
 
-    if (SecretWord === "SECRETSTORY"){
+// *** Red 1 (Start) ***
+const RedOne = prompt("PROFESSER MUMM IS DEAD!!!'' Yells the Pizza Guy. You examin the dead body and see that the cause of death was a poison dart. Should you... (a) Investigate the trap. (b) Go to the Professor Mumm's Office. (c) Go investigate outside.")
 
-        alert("WARNING! If you haven't played normal mode, please refresh and play that. It isn't recomended you play secret story mode, unless you have already played normal story mode first.");
-        alert("Secret story mode.");
-        const UserNameMurder = prompt("Please enter the name of your murder.");
-        alert("Hello detective " +UserNameMurder+ "!");
-        alert("Your objective is to kill everyone. (Ammount of kills in total is 7)");
-        alert("Starting story...");
+    // *** Red 2 ***
+    if(RedOne === "a"){
+        const RedTwo = prompt("You examine the trap and see that it is covered in flour. You go to the kitchen because that is the only place that has flour. You go into the pantry looking for the flour thinking that is a good place to start. When you walk in, your nose is attacked by a horrible smell. Should you... (a) Look through spices. (b) Look through cooking liquids.") 
     
-        // ****************************** START OF MURDER STORY ******************************
-
-
-        // ****************************** CHOICE SET 1 (Murder) ******************************
-
-    }
-
-        else {
-        alert("Normal story mode.")
-        const UserNameDetective = prompt("Please enter the name of your detective.")
-        alert("Hello detective " +UserNameDetective+ "!");
-        alert("Your objective is to catch the murder and find the eco chip.");
-        alert("Starting story...");
+        // *** Red 5 ***
+        if(RedTwo === "a"){
+        alert =("You fratically go through the spices. But you knock down some spices and they shatter on the ground. The overwelming smell of spices and the bad smell causes you to passout. You sufficate from the overwelming smells.")
+        alert =("Bad Smell Ending. This is ending 3 out of 10. Who knew that a bad smell could kill you? I guess the more you know.")
         }
-        
-        // ****************************** START OF DETECTIVE STORY ******************************
-
-        // ****************************** CHOICE SET 1 (Detective) ******************************
-
-        alert("You walk into the mansion where the cyber equinox party is being held. You open the big double doors.");
-        alert("''PROFESSOR MUMM IS DEAD!!!'' Yells the Pizza Guy. Professor Mumm's dead body layes a couple of feet in front of where you stand at the doors. You were right to assume that the Professor would be the next target. But you should have done something that might have prevented this from happaning.");
-        let CS1D = prompt("''You examine the dead body and see that the Professor was killed by a poisoned dart. You look around and you see a dart trap that the Professor must have triggered when he came in. (a)Investigate the trap. (b)Go to the Professor's office. (c)Ask the people around questions. (d)Go investigate outside.");
-    
-    if(CS1D === "a"){
-        alert("You go over to where the dart trap is set up. Under close examination. You see that there is bread flour on it. The only place that has flour would be the kitchin. You run to the kitchin to see if there are clues there.");
-        alert("You walk into the kitchin. The kitchen is filled with the smell of pizza. You start looking around.")
-        alert("You start looking around and you walk into the pantry. You gag at the revolting smell. You start looking for the sorce of the revolting smell.")
-         
-        // ****************************** CHOICE SET 2 (Detective) ******************************
-
-        let CS2D = prompt("The longer you stay in the room the worse the smell gets. What should you do? (a) Look through the spices. (b) Look through the cooking liquids.")
-
-        // ******************************  ENDING 2 (Detective) ******************************
-
-        if(CS2D === "a"){
-            alert("You fratically go through the spices. But you knock some down and they shatter on the ground. The overwelming smell of spices and the horrible smell make you sufficate. You first passout before you die from lack of oxygen.")
-            alert("Wrong Mixes Ending.                                                                         Ending 2 out of 20. Who knew that a bad smell could kill you. I guess the more you know.")
-        }
-
-        else if(CS2D === "b"){
-            alert("You take one glance at the liquids and see a weird glowing one. You grab it and see that the lid isn't on it. Also strong waves of the revolting smell go through your nose. You take the top off of one of the cooking liquids and put it on the glowing one. You walk out of the pantry and take big gulps of fresh air.")
-       
-            // ****************************** CHOICE SET 3 (Detective) ******************************
-
-        let CS3D = prompt("You look at the glowing substance in the bottle. There is only one place where something like this could have came from. Professor Mumm's office. Should you... (a) Go to Professor Mumm's office. (b) Continue looking in the kitchin.")
-
-        if (CS3D === "a") {
-            alert("You run to Professor Mumm's office. Once you get in there you see shelves filled with all sorts of things. You see glowing things, moving things, chunky things, all sorts of odds and whatnots.")
-            
-            // ****************************** CHOICE SET 4 (Detective) ******************************
-        let CS4D = prompt("You look on Professor Mumm's desk and see a white furby You can see the glowing eyes of it from where you are standing. There is also a box of Italian Four Cheese Cheese It's. That so happends to be your favorite flavor of Cheese it's. Should you... (a) Look for the weird liqid amungst the many shelves of stuff. (b) Investigate the furby. (c) Eat the Cheese it's.")
-        
-        if(CS4D === "a"){
-            alert("You look carefully look through the viles and containers of things on the shelves. In hope that there is a copy of what you had found in the kitchin pantry.")
-            alert("After a long time of searching. You find the matching liquid. You read the lable and it's a poison. On the lable it says, ''ONLY ACTIVE FOR AN HOUR UPONE EXPOSUE TO AIR''")
-        
-            // ****************************** CHOICE SET 5 (Detective) ******************************
-
-            let CS5D = prompt("That means that the trap was set up about an hour before Professor Mumm's arival to the party. You try to think of who would know exactly when the Professor would come to the party. You can only think of two people who would have known. Who should you ask? (a)Cheese it Murchant. (b)Jr. ")
-            if(CS5D === "a"){
-            // ******************************  ENDING 5 (Detective) ******************************
-                alert("You start looking for the Cheese it Murchant and find him at the crime sean. Before you're able to talk to him he starts walking away. You fallow him and he arrives at the library. He looks around as if he's hiding something. He pulls a book and a secret door opens. He goes into it and it closes behind him.")
-                alert("You start grabbing books trying to find the one that opened the secret entrance and eventually you do. The passage opens and you go through. You walk down the staries and you arive in a room full to the ceilling with Cheese it's. The Cheese it Murchant is standing in the middle of the room.")
-                alert("You start walking towards him. ''Wait stop!'' He yells. But it's to late. You fall into a huge batch of melted cheese and drown. ")
-                alert("CHEEZED Ending.                                                                         Ending 5 out of 20. I wonder if he made you into Cheese it's? Hopfully your flavor sells good.")
-            }
-            else if(CS5D === "b"){
-                alert("You walk bak into the main lobby to find Jr.")
-                alert("You eventully find him and walk up to him and ask, ''What were you doing about an hour before the party?")
-                alert("''I was with the Cheese It Merchant discussing what Cheese it's we should have for the party.'' Says Jr. You think. That covers both Jr and the Cheese it Merchaint. Who else could have known when Professor Mumm was coming to the party.")
-            
-                // ****************************** CHOICE SET 6 (Detective) ******************************
-
-                prompt("You decide to go back to Professor Mumm's office to look for more clues. (a) ")
-            }
-        }
-        else if(CS4D === "b"){
-
-        }
-        else if(CS4D === "c"){
-
-        // ******************************  ENDING 3 (Detective) ******************************
-        alert("You start eating the Cheese it's. You eat about half when you drop dead.")
-        alert("Food Poisoning.                                                                         Ending 3 out of 20. It's rude to eat Cheese it's that aren't yours. But I guess you died happy. ")
-        }
-    }
-        }
-    }
    
-        // ******************************  ENDING 1 (Detective) ******************************
-    else if(CS1D === "b"){
-        alert("You run towards Professor Mumm's office. But unaware of you surounding. You trip over his dead body and it your head killing yourself.");
-        alert("Clumsy Smurf Ending.                                                                         Ending 1 out of 20. You just started playing and you already died?! I guess you're clumsy. Your clumsyness probably would've gotten you at some point if it hadn't here. ");
+            // *** Red 6 ***
+            // *** Red 7 ***
+        else if(RedTwo === "b"){
+            const RedSeven = prompt("You find a weird glowing one that also is the sorce of the bad smell. You put a lid on it. There is only one place that would have something like this. You walk into the Office. You look on Professor Mumm's desk and see a white furby You can see the glowing eyes of it from where you are standing. There is also a box of Italian Four Cheese Cheese It's. That so happends to be your favorite flavor of Cheese it's. Should you... (a) Look for the weird liqid amungst the many shelves of stuff. (b) Eat the Cheese it's. (c) Investigate the furby.")
+        
+            // *** Red 8 ***
+            if(RedSeven === "a"){
+                const RedEight = prompt("After a long time of searching carefully through the viles. You find the matching liquid. You read the lable and it's a poison. On the lable it says, ONLY ACTIVE FOR AN HOUR UPONE EXPOSUE TO AIR. There are only two people who knew the exact time that Professor Mumm was going to arrive. Other than yourself. Who should you talk too? (a)Cheese it Merchant. (b) Party Planner.")
+            
+                // *** Red 11 ***
+                if(RedEight === "a"){
+                    alert("You walk down the hall going to the Lobby to try and find the Cheese it Murchant. You see a suspicously opened closet. You walk towards it and trip and fall into it. It's pich black. YOu look up and get jumpscared by a Furby. You have a heart attack and die.")
+                    alert("Furby Ending. This is ending 6 out of 10. If they can the bravest of men. They can certainly kill you.")
+                }
+
+                // *** Red 12 ***
+                else if(RedEight === "b"){
+                    const RedTwelve = prompt("You walk to the Lobby where the Party Planner is. You talk to him and he says that he and the Cheese It Murchant were in the kitchen trying to make desert cheese it's during the time it would have taken the murder to set up the trap. Should you... (a) Look around in closets to see if the murder is hiding in one of them. (b) Look in Professor Mumm's Office again.")
+                
+                    // *** Red 16 ***
+                    if(RedTwelve === "a"){
+                        alert("You start going through the closests and eventually you find one that has a teddy bear on a stool with a note attached. You walk in and pick up the bear. Only to realize that there was nothing on the note. You hear a weird hissing befire you blow up.")
+                        alert("Huggy Teddy Ending. This is ending 7 out of 10. I guess you ran out of time to think of what to do. But the bear was cute though.")
+                    }
+
+                    // *** Red 17 ***
+                    else if(RedTwelve === "b"){
+                        const RedSeventeen = prompt("You go back to Professor Mumm's office. You look on his desk and see papers. One is a ripped out page of a cook book. The other is a note. Which should you investigate? (a) Cook book page. (b) Go back and ask the Party Planner more questions. (c) Note.")
+                    
+                        // *** Red 23 ***
+                        if(RedSeventeen === "a"){
+                            alert("You look at the cook book page. It's a resipy for ice cream. You go to the kitchen and into the freezer. You fall through a trap door and it closes above you. You feel water start to flood into the space you're in. How would the murder know that you would go here? How would the murder know when Professor Mumm would arive at the party. Only you, the Party Planner, and the Cheese it Murchant would know. Could it be the Pizza Guy? No he was the one who found the body.")
+                            alert("As the water rises relization hits you. You know who the murder is... It's the absoloot last person you would have expected. It's... You passout from lack of oxygen and you drown.")
+                            alert("Bad Ending. This is one of the three main endings. Ending 8 out of 10. Kind of sucks that it didn't tell you who the murderer is.")
+                        }
+
+                        // *** Red 24 ***
+                        else if(RedSeventeen === "b"){
+                            alert("You go back to the Lobby. But trip on a rug and hit your head and die.")
+                            alert("No Backies Ending. This is ending 5 out of 10. No going back. The only way is forward. Also tripping over a rug is a sad way to go.")
+                        }
+
+                        // *** Red 25 ***
+                        else if(RedSeventeen === "c"){
+                            alert("You read the note and instantly know who it is. You pick up the phone and call the polies.")
+                            alert("You walk to the Lobby and the poliese are already there. Along with every one. The Party Planner, Cheese it Murchant, The Furby, and Professor Mumm, still dead on the ground. Did you catch the Murderer, Detective " +UserNameDetective+ "? The Police Cheef asks. You nod and hold out your hands for them to arrest you. You figured it out by how the hand writing is on the note. You write in a spacific way and no one else does. Also Only YOU and two other people knew when the Professor would arrive. So that leaves only you.")
+                            alert("You are placed in your jail cell happy that you caught the murder. You must have some split personality disorder or something. You look around you cell and see a Furby.")
+                            alert("Good Ending. This is one of the three main endings. Ending 10 out of 10. Didn't see that coming? Also I wonder why there is a Furby in your cell? Well congrats on solving the murder.")
+                        }
+
+                    }
+                }
+            }
+
+            // *** Red 9 ***
+            else if(RedSeven === "b"){
+                alert("You start eating the Cheese it's. You eat about half when you drop dead.")
+                alert("Cheese it Tragity Ending. This is ending 4 out of 10. It's rude to eat Cheese it's that aren't yours. But I guess you died happy. ") 
+            }
+
+            // *** Red 10 ***
+            else if(RedSeven === "c"){
+                const RedTen = prompt("You pick of the Furby and set it down because it creeps you out. You see there was a note under it and you read it. There is a map of the house on the back with two rooms circled. What should you do? (a) Go to circle one. (b) Go to circle two. ")
+            
+                // *** Red 13 ***
+                if(RedTen === "a"){
+                    alert("You go to the first room circled. It leads to a closet in the Library. You go inside and see a Teddy Bear with a note attached. You grab the bear and your hands are stuck to it. The note says Gotcha! And then you explode.")
+                    alert("Huggy Teddy Ending. This is ending 7 out of 10. I guess you ran out of time to think of what to do. But the bear was cute though.")
+                }
+
+                // *** Red 15 ***
+                else if(RedTen === "b"){
+                    const RedFifteen = prompt("You go to the second room circled. It leads you to a random closet. You open the door and get scared by the Furby that is sitting on a stool in the middle of the room. You see that there is a note under it. On the nate it says that the eco chip is in this location. When the other leads back to the Office and doesn't say why. Where should you go? (a) Eco chip. (b) Office.")
+
+                        // *** Red 21 ***
+                        if(RedFifteen === "a"){
+                            alert("You go to where it says the eco chip is. It leads you to the Library. The note says to take down a certain book. You open it and out falls the eco chip. For most of the investigations you weren't really looking for the eco chip. But for the murder.")
+                            alert("Meh Ending. This is one of the three main endings. this is ending 9 out of 10. You found the eco chip. But not the murder. Any guesses on who?")
+                        }
+
+                        // Red 22
+                        else if(RedFifteen === "b"){
+                            alert("You back to the Office again. The Furby is back on the deck with another note under it. You carefully grab it from under the Furby.")
+                            alert("You read the note and instantly know who it is. You pick up the phone and call the polies.")
+                            alert("You walk to the Lobby and the poliese are already there. Along with every one. The Party Planner, Cheese it Murchant, The Furby, and Professor Mumm, still dead on the ground. Did you catch the Murderer, Detective " +UserNameDetective+ "? The Police Cheef asks. You nod and hold out your hands for them to arrest you. You figured it out by how the hand writing is on the note. You write in a spacific way and no one else does. Also Only YOU and two other people knew when the Professor would arrive. So that leaves only you.")
+                            alert("You are placed in your jail cell happy that you caught the murder. You must have some split personality disorder or something. You look around you cell and see a Furby.")
+                            alert("Good Ending. This is one of the three main endings. Ending 10 out of 10. Didn't see that coming? Also I wonder why there is a Furby in your cell? Well congrats on solving the murder.")
+                        }
+                }
+            }
+        }
     }
-    
-    else if(CS1D === "c"){
 
-        // ****************************** CHOICE SET 2 (Detective) ******************************
-
-        let CS2D = prompt("More people have arived sense Professor Mumm was murdered. Who should you ask first? (a) Pizza Guy. (b) Cheese it Murchant. (c) Josh. (d) Jr.");
-        if(CS2D === "a"){
-            alert("You walk over to the Pizza Guy sense he was the one that discovered the body")
-
-        // ****************************** CHOICE SET 3 (Detective) ******************************
-        let 
-
-        }
-        else if(CS2D === "b"){
-
-        }
-        else if(CS2D === "c"){
-
-        }
-        else if(CS2D === "d"){
-
-        }
-    }
-    else if(CS1D === "d"){
-
-            // ****************************** CHOICE SET # (Detective) ******************************
-
-    let CS = prompt("You walk around outide and walk around the house several times. Unable to find anything you go back inside. (a)Investigate the trap. (b)Go to the Professor's office. (c)Ask the people around questions.")
-     
-    if(CS === ""){
-
+    // *** Red 3 ***
+    else if(RedOne === "b"){
+        alert("You start to run towards Professor Mumm's office. But you trip over his dead body and hit your head and die.")
+        alert("Clumsy Smerf Ending. This is ending 1 out of 10. You just started playing and you already died? I guess you're clumsy. Your clumsyness probably would've gotten you at some point if it hadn't here.")
     }
 
+    // *** Red 4 ***
+    else if(RedOne === "c"){
+        alert("You turn around to go outside. You slip on the doormatt and fall down the stairs and die.")
+        alert("Slippery Steps Ending. This is ending 2 out of 10. If you haven't gotten ending 1. Also you suck at walking. Are you blind?")
     }
 }
 document.body.appendChild(btn);
