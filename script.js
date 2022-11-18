@@ -19,8 +19,8 @@ const RedOne = prompt("PROFESSER MUMM IS DEAD!!!'' Yells the Pizza Guy. You exam
     
         // *** Red 5 ***
         if(RedTwo === "a"){
-        alert =("You fratically go through the spices. But you knock down some spices and they shatter on the ground. The overwelming smell of spices and the bad smell causes you to passout. You sufficate from the overwelming smells.")
-        alert =("Bad Smell Ending. This is ending 3 out of 10. Who knew that a bad smell could kill you? I guess the more you know.")
+        alert ("You fratically go through the spices. But you knock down some spices and they shatter on the ground. The overwelming smell of spices and the bad smell causes you to passout. You sufficate from the overwelming smells.")
+        alert ("Bad Smell Ending. This is ending 3 out of 10. Who knew that a bad smell could kill you? I guess the more you know.")
         }
    
             // *** Red 6 ***
