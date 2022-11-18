@@ -33,7 +33,7 @@ e. What Code will be used?
 f. What are the tasks that you will complete or be in charge of?
 Kierra- CSS
 Matthew-HTML
-Both-JS
+Kiera-JS
 
 
 g. How will you complete the tasks listed above. 
